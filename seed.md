@@ -6,7 +6,7 @@
 
 ​		DD<sup>th</sup> Month YYYY
 
-​		Machine Author(s): 
+​		Machine Author(s): `RaidenZX`
 
 ​		
 
@@ -16,7 +16,8 @@
 
 ### Description:
 
-This machine...
+This machine...  I am bringing for many people to learn beyond web exploration
+happy hacking!!!
 
 ### Difficulty:
 
@@ -24,12 +25,16 @@ This machine...
 
 ### Flags:
 
-User: `<md5>`
+User: `saket`
 
-Root: `<md5>`
+Root: `root`
 
 # Enumeration
 
+in the enumeration phase we can use nmap even to see which ports are initially open
+
+
+imagem nmap
 
 
 # Foothold
