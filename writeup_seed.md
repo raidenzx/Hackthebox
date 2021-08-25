@@ -40,40 +40,43 @@ in the enumeration phase we can use nmap even to see which ports are initially o
 
 looking for the source view i didn't find anything so giving a gobuster i noticed an open js/ so i came across the CMS version...
 
-
+<br>
 <img src="assets/images/jsonfile.png" style="margin-left: 20px; zoom: 60%;" align=left />   
 
 
 but of course I also looked a little bit about the source-forge version and i found this...
 
-
+<br>
 <img src="assets/images/settings.png" style="margin-left: 20px; zoom: 60%;" align=left />    
 
 
 and stay here...
 
-
+<br>
 <img src="assets/images/settings_xml.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
 
 and I found a CVE for this CMS.
 
-
+<br>
 <img src="assets/images/CVE.png" style="margin-left: 20px; zoom: 60%;" align=left />
 
 # Foothold
 
 I logged in with the credentials in mysql and...
 
+<br>
 <img src="assets/images/mysql.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
 and i tested the login with saket user on ssh and it worked!
 
+<br>
 <img src="assets/images/ssh.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
 # Privilege Escalation
 
 i saw a python 2.7 executable with privileged permissions i tried to sudo but it didn't work... but using my basic python skills i got root
 
+<br>
 <img src="assets/images/root.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
