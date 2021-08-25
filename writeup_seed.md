@@ -37,25 +37,25 @@ in the enumeration phase we can use nmap even to see which ports are initially o
 <br>
 <img src="assets/images/nmapscan.png" style="margin-left: 20px; zoom: 60%;" align=left />    
 
-
+<br>
 looking for the source view i didn't find anything so giving a gobuster i noticed an open js/ so i came across the CMS version...
 
 <br>
 <img src="assets/images/jsonfile.png" style="margin-left: 20px; zoom: 60%;" align=left />   
 
-
+<br>
 but of course I also looked a little bit about the source-forge version and i found this...
 
 <br>
 <img src="assets/images/settings.png" style="margin-left: 20px; zoom: 60%;" align=left />    
 
-
+<br>
 and stay here...
 
 <br>
 <img src="assets/images/settings_xml.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
-
+<br>
 and I found a CVE for this CMS.
 
 <br>
@@ -68,6 +68,7 @@ I logged in with the credentials in mysql and...
 <br>
 <img src="assets/images/mysql.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
+<br>
 and i tested the login with saket user on ssh and it worked!
 
 <br>
