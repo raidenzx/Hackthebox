@@ -34,6 +34,7 @@ Root: `root:5375627363726962654f6e4d79436861`
 in the enumeration phase we can use nmap even to see which ports are initially open
 
 
+<br>
 <img src="assets/images/nmapscan.png" style="margin-left: 20px; zoom: 60%;" align=left />    
 
 
