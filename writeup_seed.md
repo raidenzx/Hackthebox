@@ -53,7 +53,7 @@ but of course I also looked a little bit about the source-forge version and i fo
 and stay here...
 
 <br>
-<img src="assets/images/settings_xml.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
+<img src="assets/images/setting_xml.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
 <br>
 and I found a CVE for this CMS.
