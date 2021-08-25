@@ -66,7 +66,7 @@ and I found a CVE for this CMS.
 I logged in with the credentials in mysql and...
 
 <br>
-<img src="assets/images/mysql.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
+<img src="assets/images/msql.png" style="margin-left: 20px; zoom: 60%;" align=left /> 
 
 <br>
 and i tested the login with saket user on ssh and it worked!
